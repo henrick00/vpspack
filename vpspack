@@ -544,10 +544,10 @@ then
 date="Nunca"
 fi
 detalhesdata=$(printf '%-18s' "$data")
-detalheslimite=$(printf '%-10s' "$limite")
+detalheslimite=$(printf '%-10s' "$limitecs")
 detalhes=$(printf ' %-21s' "$users")
 detalhespass=$(printf '%-18s' "$senha")
-echo -e "\033[1;33m$detalhes $detalhespass $detalhesdata $detalheslimit\033[0m"
+echo -e "\033[1;33m$detalhes $detalhespass $detalhesdata $detalheslimite\033[0m"
 echo -e "\033[1;30m----------------------------------------------------------------------\033[0m"
 done
 }
